@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Epilogue' ,sans-serif;
+    overflow-y: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+#opcoes-box {
+    display: flex;
+    align-items: center;
+}
+#opcoes-box h1 {
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#opcoes-nav a{
+    color: rgb(97, 97, 97);
+    margin-right: 15px;
+}
+
+#opcoes-nav a:hover{
+    border-bottom: 2px solid gray;
+}
+
+.botoes {
+    color:  rgb(97, 97, 97);
+
+}
+#Registerbotao{
+    margin-left: 20px;
+    border: 1px solid  rgb(97, 97, 97) ;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 400ms;
+}
+
+#Registerbotao:hover {
+    background-color:rgb(97, 97, 97) ;
+    color: #fff;
+    transform: scale(1.08);
+}
+main{
+    display: flex;
+    margin: 20px 50px;
+    height: 80vh;
+
+}
+
+#texto-principal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px
+}
+#texto-principal h1{
+    font-size: 50px;
+}
+#foto-principal{
+    width: 50%;
+}
+#logo-emp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+#logo-emp img:hover {
+    transition: 500ms;
+    transform: scale(1.3);
+}
+
+#botao{
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#text-paragrafo {
+    width: 400px;
+    color: rgb(97, 97, 97);
+}
+#texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px 0;
+}
+#foto {
+    background-image: url('../img/bg-principal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}

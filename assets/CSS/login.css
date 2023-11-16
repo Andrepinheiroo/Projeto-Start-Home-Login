@@ -1,0 +1,164 @@
+body{
+    font-family: 'Epilogue',sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+#foto-login {
+    width: 50%;
+    height: 100vh;
+    background-image: url('../img/bg-login.jpg');
+    background-size: cover;
+    filter: grayscale(100%);
+    padding: 40px;
+}
+#foto-login a{
+    transition: 1s;
+}
+#foto-login a:hover{
+    font-size: 40px;
+    color: rgb(0, 255, 21);
+}
+#formulario-box {
+    height: 100vh;
+    width: 100vh;
+    margin: auto;
+}
+
+#formulario-meio {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#formulario-texto h1 {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#formulario-texto p{
+    width: 200px;
+    color: rgb(94, 92, 92);
+}
+.input {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+
+}
+
+.input-text{
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 35px;
+    margin-top: 5px;
+}
+#email {
+    background-image: url(assets/envelope-fill.svg);
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+
+}
+#senha {
+    background-image: url(assets/key-fill.svg);
+    background-repeat: no-repeat;
+    background-position: center left 10px; 
+}
+#formulario-lembre {
+    display: flex;
+    align-items: center;
+}
+#formulario-lembre label{
+    font-size: 12px;
+    margin-left: 5px;
+    color: rgb(99, 99, 99);
+
+}
+
+#formulario-botoes {    
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#formulario-botoes button{
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}  
+
+#entar {
+    background-color: black !important;
+    color: #fff;
+    transition: all 400ms;
+}
+
+
+#entar:hover {
+    box-shadow: 3px 2px 2px rgba(39, 39, 39, 0.363);
+}
+
+#register  {
+    transition: all 400ms;
+
+}
+#register:hover {
+    transition: all 1s;
+    border-bottom: 2px solid black;
+    box-shadow: 1px 2px 2px rgba(39, 39, 39, 0.144);
+   
+}
+
+#formulario-redes {
+    width: 200px;
+    text-align: center;
+    gap: 30px;
+}
+
+#formulario-redes h3 {
+    margin-bottom: 15px;
+}
+
+#redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#f:hover {
+    color: blue;
+    transform: scale(1.08);
+    cursor: pointer;
+    transition: all 400ms;
+}
+#g:hover {
+    color: rgb(177, 25, 25);
+    transform: scale(1.08);
+    cursor: pointer;
+    transition: all 400ms;
+}
+#in:hover {
+    color: rgb(81, 81, 177);
+    transform: scale(1.08);
+    cursor: pointer;
+    transition: all 400ms;
+}
